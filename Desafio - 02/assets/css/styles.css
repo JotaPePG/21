@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
-:root {
-	--primary-color: rgb(123, 38, 188);
-	--secondary-color: rgb(0, 183, 183);
-}
-
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -16,41 +11,51 @@
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: var(--primary-color);
+	background: linear-gradient(to bottom right, rgb(5, 82, 112) , rgb(3, 15, 82));
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .box {
 	position: relative;
-	background: white;
-	padding: 20px 80px;
-	border-radius: 15px;
-	border-radius: 5px 30px;
-	box-shadow: inset -3px 3px 2px rgb(77, 77, 77);
+	-webkit-box-reflect: below -20px linear-gradient(transparent, #0002);
 }
 
-.mensage {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.mensage::after {
-	content: '';
+.box::before {
+	content: "";
 	position: absolute;
-	left: 50%;
-	top: 75%;
-	width: 0%;
-	height: 5%;
-	border-radius: 2px;
-	background-color: var(--secondary-color);
-	transition: all 200ms ease-in-out;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 80%;
+	background: aqua;
+	animation: blinkCursor 0.8s steps(3) infinite;
 }
 
-.mensage:hover::after {
-	left: 20%;
-	top: 75%;
-	width: 60%;
-	height: 5%;
+@keyframes blinkCursor {
+	0%,75% {
+		opacity: 1;
+	}
+	76%,100% {
+		opacity: 0;
+	}
 }
 
-.world {
-	color: var(--secondary-color);
+.box h2 {
+	position: relative;
+	color: aqua;
+	letter-spacing: 5px;
+	font-size: 3rem;
+	animation: typingText 8s steps(14) infinite;
+	overflow: hidden;
+	white-space: nowrap;
+	text-shadow: 0 0 5px aqua;
+}
+
+@keyframes typingText {
+	0%,90%,100% {
+		width: 0;
+	}
+	30%,60% {
+		width: 399.8px;
+	}
 }
