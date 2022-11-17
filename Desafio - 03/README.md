@@ -1,8 +1,8 @@
-# Desafio 02: Hello World
+# Desafio 03: Botão Animado
 
-Desafio 03 - Famoso "Hello World" com HTML e CSS
+Desafio 03 - Crie um botão animado.
 
-O desafio era fazer um Hello World customizado com cores, fontes e imagens.
+Esse desafio era criar um botão animado. Acabei acrescentando a função de dark mode ao site.
 
 Confira o resultado ➡ <a href="#">aqui</a> ⬅
 ## Tecnologias usadas:
