@@ -11,7 +11,7 @@
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-  background: linear-gradient(to bottom right, rgb(253, 253, 253) , rgb(202, 202, 202));
+  background: #f2e9e4;
 }
 
 input {
@@ -19,7 +19,7 @@ input {
   position: relative;
   width: 120px;
   height: 40px;
-  background-color: #f5f5f5;
+  background-color: #9a8c98;
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   cursor: pointer;
@@ -31,7 +31,7 @@ input::before {
   left: 0;
   height: 40px;
   width: 40px;
-  background-color: rgb(218, 200, 102);
+  background-color: #c9ada7;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 20px;
   scale: 1.1;
@@ -39,6 +39,6 @@ input::before {
 }
 
 input:checked::before {
-  background-color: rgb(45, 81, 129);
+  background-color: #22223b;
   left: 80px;
 }
