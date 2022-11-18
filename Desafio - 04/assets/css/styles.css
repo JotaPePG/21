@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@900&family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #eae0d5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.calculator {
+  background-color: #5e503f;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.result {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: #eae0d5;
+  font-size: 2.8rem;
+}
+
+.button {
+  height: 80px;
+  width: 80px;
+  background-color: #c6ac8f;
+  border-radius: 40px;
+  margin: 5px;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.button:hover {
+  background-color: #a7927b;
+}
+
+#zero {
+  width: 170px;
+}
+
+#operator {
+  background-color: #fec89a;
+}
+
+#number, #zero, #master {
+  background-color: #e8e8e4;
+}
