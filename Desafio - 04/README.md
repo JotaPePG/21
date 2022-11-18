@@ -1,8 +1,8 @@
-# Desafio 03: Botão Animado
+# Desafio 04: Calculadora
 
-Desafio 03 - Crie um botão animado.
+Desafio 03 - Crie uma calculadora.
 
-Esse desafio era criar um botão animado. Acabei acrescentando a função de dark mode ao site.
+Esse desafio consistia criar uma calculadora utilizando javascript.
 
 Confira o resultado ➡ <a href="#">aqui</a> ⬅
 ## Tecnologias usadas:

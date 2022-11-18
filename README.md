@@ -7,7 +7,7 @@
 
 - [x] **Desafio 03:** Crie um botão animado. (<a href="https://github.com/JotaPePG/21-dias-de-codigo/tree/main/Desafio%20-%2003"> aqui </a>)
 
-- [ ] **Desafio 04:** Crie uma calculadora. (<a href="https://github.com/JotaPePG/21-dias-de-codigo"> aqui </a>)
+- [x] **Desafio 04:** Crie uma calculadora. (<a href="https://github.com/JotaPePG/21-dias-de-codigo/tree/main/Desafio%20-%2004"> aqui </a>)
 
 - [ ] **Desafio 05:** Desenvolva uma página customizada que exiba o erro 404. (<a href="https://github.com/JotaPePG/21-dias-de-codigo"> aqui </a>)
 
