@@ -9,7 +9,7 @@
 
 - [x] **Desafio 04:** Crie uma calculadora. (<a href="https://github.com/JotaPePG/21-dias-de-codigo/tree/main/Desafio%20-%2004"> aqui </a>)
 
-- [ ] **Desafio 05:** Desenvolva uma página customizada que exiba o erro 404. (<a href="https://github.com/JotaPePG/21-dias-de-codigo"> aqui </a>)
+- [x] **Desafio 05:** Desenvolva uma página customizada que exiba o erro 404. (<a href="https://github.com/JotaPePG/21-dias-de-codigo"> aqui </a>)
 
 - [ ] **Desafio 06:** Crie um card com o efeito glassmorphism. (<a href="https://github.com/JotaPePG/21-dias-de-codigo"> aqui </a>)
 

@@ -1,6 +1,6 @@
 # Desafio 04: Calculadora
 
-Desafio 03 - Crie uma calculadora.
+Desafio 04 - Crie uma calculadora.
 
 Esse desafio consistia criar uma calculadora utilizando javascript.
 

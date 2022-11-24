@@ -53,6 +53,14 @@
   background-color: #fec89a;
 }
 
+#operator:hover {
+  background-color: #c99e79;
+}
+
 #number, #zero, #master {
   background-color: #e8e8e4;
+}
+
+#number:hover, #zero:hover, #master:hover {
+  background-color: #bebebe;
 }

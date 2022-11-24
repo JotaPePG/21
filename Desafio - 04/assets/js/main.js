@@ -1,5 +1,6 @@
 const result = document.querySelector(".result");
 let operation = false;
+let operationLib = false;
 
 function insert(inputValue) {
   const o = inputValue === "/" || inputValue === "*" || inputValue === "-" || inputValue === "+";
